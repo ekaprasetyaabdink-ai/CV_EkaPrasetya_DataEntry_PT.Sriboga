@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Eka Prasetya Abdin Kurniawan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 215px;
+            object-fit: cover;
+            border-radius: 6px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-title {
+            border-left: 4px solid #1e40af;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            color: #1e40af;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-align: left;
+        }
+
+        .cv-card {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .contact-link:hover {
+            color: #60a5fa;
+            text-decoration: underline;
+        }
+
+        @media print {
+            body { background: white; p: 0; }
+            .cv-card { box-shadow: none; margin: 0; max-width: 100%; border-radius: 0; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="cv-card">
+        <!-- Header / Profil -->
+        <div class="bg-slate-800 text-white p-8 md:flex items-center gap-8">
+            <div class="flex-shrink-0 mb-6 md:mb-0 flex justify-start">
+                <!-- Foto Profil -->
+                <img src="https://api.screenshotone.com/take?url=https%3A%2F%2Fstorage.googleapis.com%2Fstatic.duckduckgo.com%2Fassets%2Flogo_homepage.normal.v108.svg&block_ads=true&block_cookie_banners=true&block_trackers=true&delay=0&format=jpg&full_page=false&image_quality=80&width=160" 
+                     alt="Eka Prasetya Abdin Kurniawan" 
+                     class="profile-img border-2 border-white/20"
+                     onerror="this.src='https://via.placeholder.com/160x215?text=Foto+Eka'">
+            </div>
+            <div class="text-left flex-grow">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2 uppercase tracking-tight">EKA PRASETYA ABDIN KURNIAWAN, S.ak.</h1>
+                <p class="text-xl text-blue-400 font-medium mb-4">Sarjana Ekonomi (Akuntansi)</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-4 text-sm text-slate-300">
+                    <a href="mailto:ekaprasetyaabdink@gmail.com" class="contact-link flex items-center gap-2">
+                        <i class="fas fa-envelope text-blue-400 w-5"></i> ekaprasetyaabdink@gmail.com
+                    </a>
+                    <a href="tel:089687060695" class="contact-link flex items-center gap-2">
+                        <i class="fas fa-phone text-blue-400 w-5"></i> 089687060695
+                    </a>
+                    <a href="https://www.linkedin.com/in/eka-prasetya-61b3703b7" target="_blank" class="contact-link flex items-center gap-2">
+                        <i class="fab fa-linkedin text-blue-400 w-5"></i> Linkedin Profile
+                    </a>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-location-dot text-blue-400 w-5"></i> Semarang, Jawa Tengah
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Kolom Kiri: Info & Keahlian -->
+            <div class="md:col-span-1 space-y-8">
+                <!-- Ringkasan Profesional -->
+                <section>
+                    <h2 class="section-title">Ringkasan</h2>
+                    <p class="text-gray-700 text-sm leading-relaxed text-left">
+                        Lulusan Sarjana Ekonomi dari Universitas Semarang (USM) dengan IPK 3.37. Memiliki keahlian teknis dalam pengolahan data keuangan, administrasi ritel, dan operasional dokumen digital. Berpengalaman dalam pengelolaan kasir, digitalisasi data UMKM, serta mahir menggunakan Microsoft Excel (VLOOKUP, Pivot Table). Sangat teliti, jujur, disiplin, dan siap bekerja dengan sistem shift/lembur untuk mendukung operasional PT. Sriboga Flour Mill.
+                    </p>
+                </section>
+
+                <!-- Keahlian -->
+                <section>
+                    <h2 class="section-title">Keahlian</h2>
+                    <div class="space-y-4 text-sm text-left">
+                        <div>
+                            <span class="font-semibold block mb-1">Data Processing</span>
+                            <p class="text-gray-600">Data Entry, Cash Handling, Document Management, Inventory Control, Data Validation.</p>
+                        </div>
+                        <div>
+                            <span class="font-semibold block mb-1">Software</span>
+                            <p class="text-gray-600">Microsoft Excel, MS. Word, MS. PowerPoint.</p>
+                        </div>
+                        <div>
+                            <span class="font-semibold block mb-1">Sistem</span>
+                            <p class="text-gray-600">Sistem Informasi Akuntansi (SIA), Administrasi Ritel & Perkantoran.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Edukasi -->
+                <section>
+                    <h2 class="section-title">Edukasi</h2>
+                    <div class="text-sm text-left">
+                        <p class="font-bold text-slate-800">Universitas Semarang (USM)</p>
+                        <p class="text-gray-600 italic">2018 - 2025</p>
+                        <p class="text-blue-700 font-medium">S1 Akuntansi | IPK: 3.37 / 4.00</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Kolom Kanan: Pengalaman & Sertifikat -->
+            <div class="md:col-span-2 space-y-8">
+                
+                <!-- Pengalaman -->
+                <section>
+                    <h2 class="section-title">Pengalaman & Proyek</h2>
+                    
+                    <div class="space-y-6 text-left">
+                        <!-- Pengalaman 1 -->
+                        <div>
+                            <div class="flex justify-between items-start mb-1">
+                                <h3 class="font-bold text-slate-800 text-lg">Staff Operasional & Kasir</h3>
+                                <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500 font-semibold">2019 - 2021</span>
+                            </div>
+                            <p class="text-blue-700 font-medium text-sm mb-2">Rudi Print - Semarang</p>
+                            <ul class="list-disc ml-5 text-sm text-gray-700 space-y-1">
+                                <li>Bertanggung jawab atas operasional harian jasa pencetakan dokumen dan pengolahan file digital milik pelanggan.</li>
+                                <li>Melakukan pengecekan ketelitian data dan format dokumen sebelum proses cetak untuk meminimalkan kesalahan operasional.</li>
+                                <li>Mengelola transaksi pembayaran harian dengan teliti serta menyusun laporan kas harian dengan akurat.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Proyek Skripsi -->
+                        <div>
+                            <div class="flex justify-between items-start mb-1">
+                                <h3 class="font-bold text-slate-800 text-lg">Penelitian Sistem Informasi Akuntansi</h3>
+                                <span class="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500 font-semibold">2024</span>
+                            </div>
+                            <p class="text-blue-700 font-medium text-sm mb-2">Proyek Skripsi</p>
+                            <ul class="list-disc ml-5 text-sm text-gray-700 space-y-1">
+                                <li>Memimpin proses digitalisasi dan migrasi database transaksi harian UMKM secara sistematis untuk mempercepat proses pencatatan.</li>
+                                <li>Mengolah database mentah menggunakan rumus Excel tingkat lanjut menjadi laporan keuangan yang akurat dan siap audit.</li>
+                                <li>Mengidentifikasi dan memperbaiki kesalahan input data sebesar 100% sebelum laporan diserahkan.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sertifikasi -->
+                <section>
+                    <h2 class="section-title">Sertifikasi & Penghargaan</h2>
+                    <ul class="space-y-3 text-sm text-left">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-certificate mt-1 text-blue-600"></i>
+                            <div>
+                                <p class="font-semibold">Sertifikat Pelatihan Microsoft Office 2019 & 365</p>
+                                <p class="text-gray-500 text-xs">UPT Komputer USM (2023)</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-language mt-1 text-blue-600"></i>
+                            <div>
+                                <p class="font-semibold">TOEFL Prediction Test (Score: 403)</p>
+                                <p class="text-gray-500 text-xs">Bina Bahasa Jaya USM (2024)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Catatan Tambahan -->
+                <div class="bg-blue-50 border-l-4 border-blue-600 p-4 mt-10 text-left">
+                    <p class="text-sm text-blue-800 leading-relaxed">
+                        <strong>Catatan Tambahan:</strong> Siap bekerja shift/lembur dan berdomisili di Area Semarang dekat Tanjung Mas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-slate-50 p-4 text-center border-t border-slate-200">
+            <button onclick="window.print()" class="no-print bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-semibold transition flex items-center gap-2 mx-auto">
+                <i class="fas fa-print"></i> Cetak PDF
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
